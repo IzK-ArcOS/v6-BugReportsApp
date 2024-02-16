@@ -1,0 +1,37 @@
+#BugReports > div.body div.titlebar div.toolbar {
+  margin-left: auto;
+}
+
+#BugReports > div.body div.titlebar div.toolbar button {
+  margin: 0;
+}
+
+#BugReports > div.body div.titlebar div.toolbar button.material-icons-round {
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+}
+
+#BugReports > div.body div.titlebar button.suggested {
+  height: 30px;
+}
+
+#BugReports > div.body div.titlebar div.toolbar div.group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#BugReports > div.body div.titlebar div.sep {
+  width: 1px;
+  height: 20px;
+  background-color: var(--button-hover-bg);
+}
+
+#BugReports > div.body div.titlebar div.toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

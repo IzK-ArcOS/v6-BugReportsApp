@@ -1,33 +1,36 @@
-import { DefaultIcon } from "$ts/images/apps";
-import { Runtime } from "./runtime";
-import AppSvelte from "../App.svelte";
+import { BugReportIcon } from "$ts/images/general";
 import { App } from "$types/app";
+import AppSvelte from "../App.svelte";
+import { Runtime } from "./runtime";
 
-export const app: App = {
+export const BugReports: App = {
   metadata: {
-    name: "App Template",
-    description: "This is an app template",
+    name: "Bug Reports",
+    description: "View and send ArcOS bug reports",
     author: "The ArcOS Team",
-    version: "0.0.0",
-    icon: DefaultIcon
+    version: "2.0.0",
+    icon: BugReportIcon,
+    appGroup: "support",
   },
   runtime: Runtime,
   content: AppSvelte,
-  id: "appTemplate",
-  size: { w: 0, h: 0 },
-  minSize: { w: 0, h: 0 },
-  maxSize: { w: 0, h: 0 },
-  pos: { x: 0, y: 0 },
+  id: "BugReports",
+  size: { w: 840, h: 600 },
+  minSize: { w: 840, h: 600 },
+  maxSize: { w: 840, h: 600 },
+  pos: { x: 100, y: 100 },
   state: {
     minimized: false,
     maximized: false,
-    headless: false,
+    headless: true,
     fullscreen: false,
-    resizable: false
+    resizable: false,
   },
   controls: {
-    minimize: false,
+    minimize: true,
     maximize: false,
-    close: false
-  }
-}
+    close: true,
+  },
+  glass: true,
+  singleInstance: true,
+};

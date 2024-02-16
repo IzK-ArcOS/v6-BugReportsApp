@@ -1,0 +1,10 @@
+#BugReports > div.body div.content {
+  flex-grow: 1;
+  max-width: calc(100% - 250px);
+  background-color: var(--win-bg);
+  border-left: var(--win-border);
+}
+
+#BugReports > div.body div.content div.bottom {
+  height: calc(100% - 50px);
+}

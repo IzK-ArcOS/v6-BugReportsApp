@@ -1,3 +1,22 @@
-window#appTemplate { /* Rename appTemplate to the ID of the app */
-  color: #f0f;
+@import url("./sidebar.css");
+@import url("./content.css");
+@import url("./titlebar.css");
+
+#BugReports > div.body {
+  display: flex;
+  padding: 0;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+#BugReports > div.body div.content {
+  display: flex;
+  flex-direction: column;
+}
+
+#BugReports > div.body div.content div.bottom {
+  display: flex;
+  height: 100%;
+  max-height: calc(100% - 50px);
 }

@@ -1,0 +1,39 @@
+@import url("./titlebar/toolbar.css");
+
+#BugReports > div.body div.titlebar {
+  height: 50px !important;
+  padding: 10px;
+  border-bottom: var(--win-border);
+  gap: 5px;
+  display: flex;
+}
+
+#BugReports > div.body div.titlebar.left div.controls {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+#BugReports > div.body div.titlebar div.controls {
+  margin-right: 5px;
+  height: 18px;
+}
+
+#BugReports > div.body div.titlebar div.title {
+  flex-grow: 1;
+  max-width: unset;
+  margin-left: 5px;
+  gap: 10px;
+}
+
+#BugReports > div.body div.titlebar.left {
+  flex-direction: row-reverse;
+}
+
+#BugReports > div.body div.titlebar.left div.title {
+  margin-right: 5px;
+  flex-direction: row-reverse;
+}
+
+#BugReports > div.body div.titlebar div.title img {
+  height: 20px;
+}
