@@ -1,0 +1,9 @@
+#BugReports div.legacy-notice {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#BugReports div.legacy-notice img {
+  height: 24px;
+}

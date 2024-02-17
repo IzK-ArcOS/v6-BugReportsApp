@@ -1,0 +1,22 @@
+@import url("./toolbar.css");
+
+#DataViewer > div.body {
+  padding: 0;
+  background-color: var(--win-bg);
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#DataViewer > div.body textarea {
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: inherit;
+  border: none;
+  color: inherit;
+  padding: 15px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 13px;
+  resize: none;
+}

@@ -1,0 +1,45 @@
+#Creator > div.body div.fields div.field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: var(--win-border);
+  height: 50px;
+  padding: 10px;
+}
+
+#Creator > div.body div.field p.caption {
+  width: 80px;
+  margin-left: 10px;
+  opacity: 0.5;
+}
+
+#Creator > div.body div.field div.value {
+  flex-grow: 1;
+  max-width: calc(100% - 100px);
+  overflow-x: auto;
+}
+#Creator > div.body div.field div.value > * {
+  vertical-align: middle;
+}
+
+#Creator > div.body div.field div.value input:not([type*="checkbox"]) {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  height: 30px;
+}
+
+#Creator > div.body div.field div.value::-webkit-scrollbar {
+  display: none;
+}
+#Creator > div.body div.field.include div.value {
+  display: flex;
+  gap: 30px;
+}
+
+#Creator > div.body div.field.include div.value div.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

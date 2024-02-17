@@ -1,0 +1,11 @@
+#BugReports > div.body div.content div.header * {
+  margin: 0;
+}
+
+#BugReports > div.body div.content div.header h1 {
+  font-size: 20px;
+}
+
+#BugReports > div.body div.content div.header p {
+  opacity: 0.5;
+}

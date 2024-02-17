@@ -18,6 +18,10 @@
   height: 30px;
 }
 
+#BugReports > div.body div.titlebar button.suggested:disabled {
+  opacity: 0.2 !important;
+}
+
 #BugReports > div.body div.titlebar div.toolbar div.group {
   display: flex;
   align-items: center;

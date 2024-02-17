@@ -1,6 +1,7 @@
 @import url("./sidebar.css");
 @import url("./content.css");
 @import url("./titlebar.css");
+@import url("./notfound.css");
 
 #BugReports > div.body {
   display: flex;
@@ -19,4 +20,10 @@
   display: flex;
   height: 100%;
   max-height: calc(100% - 50px);
+}
+#BugReports > div.body div.content div.bottom div.loading {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

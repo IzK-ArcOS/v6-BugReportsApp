@@ -1,0 +1,23 @@
+#BugReports > div.body div.not-found {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+}
+#BugReports > div.body div.not-found img {
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+#BugReports > div.body div.not-found h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+#BugReports > div.body div.not-found p {
+  margin: 0;
+  width: 200px;
+  text-align: center;
+}

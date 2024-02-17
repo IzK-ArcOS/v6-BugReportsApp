@@ -1,0 +1,9 @@
+@import url("./viewer/header.css");
+@import url("./viewer/metadata.css");
+@import url("./viewer/legacy.css");
+
+#BugReports > div.body div.content div.bottom {
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
