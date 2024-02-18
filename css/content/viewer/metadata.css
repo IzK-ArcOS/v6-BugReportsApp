@@ -1,72 +1,11 @@
-#BugReports div.metadata {
-  background-color: var(--button-bg);
-  border-radius: var(--win-border-rad);
-}
-
-#BugReports div.metadata div.row {
-  display: flex;
-  gap: 30px;
-  padding: 10px 15px;
-}
-
-#BugReports div.metadata div.segment {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-#BugReports div.metadata div.segment > p {
-  margin: 0;
-}
-
-#BugReports div.metadata div.segment p.caption {
-  opacity: 0.5;
-  font-weight: bold;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-}
-
-#BugReports div.metadata div.segment p.caption button.help {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  background-color: transparent;
-}
-
-#BugReports div.metadata div.segment p.caption button.help:hover {
-  color: var(--accent-light);
-}
-
-#BugReports div.metadata div.segment.right {
-  margin-left: auto;
-  margin-top: -10px;
-  margin-bottom: -10px;
-  justify-content: center;
-  border-left: var(--win-border);
-  padding-left: 15px;
-}
-
-#BugReports div.metadata div.segment code {
-  background-color: transparent;
-}
-
-#BugReports div.metadata div.row + div.row {
-  border-top: var(--win-border);
-}
-
-#BugReports div.metadata div.row > button.action {
-  margin-left: auto;
-}
-
-#BugReports div.metadata div.segment.mode p.value,
-#BugReports div.metadata div.segment.version p.value {
+#BugReports div.info-block div.segment.mode p.value,
+#BugReports div.info-block div.segment.version p.value {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-#BugReports div.metadata div.segment.mode p.value img,
-#BugReports div.metadata div.segment.version p.value img {
+#BugReports div.info-block div.segment.mode p.value img,
+#BugReports div.info-block div.segment.version p.value img {
   height: 16px;
 }
