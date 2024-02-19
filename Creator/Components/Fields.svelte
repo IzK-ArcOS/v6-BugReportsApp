@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { ConnectedServer } from "$ts/stores/server";
+  import { UserName } from "$ts/stores/user";
   import { CreatorRuntime } from "../ts/runtime";
 
   export let runtime: CreatorRuntime;
@@ -18,7 +20,7 @@
     <div class="value">
       <div class="option">
         <span>Preferences</span>
-        <input type="checkbox" bind:value={$IncludeUserData} />
+        <input type="checkbox" bind:value={$IncludeUserData} disabled={!$UserName} />
       </div>
       <div class="option">
         <span>The Server</span>

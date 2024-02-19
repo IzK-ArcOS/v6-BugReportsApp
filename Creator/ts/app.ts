@@ -1,13 +1,13 @@
-import { ComponentIcon } from "$ts/images/general";
+import { BugReportIcon } from "$ts/images/general";
 import { App } from "$types/app";
 import CreatorSvelte from "../Creator.svelte";
 import { CreatorRuntime } from "./runtime";
 
 export const Creator: App = {
   metadata: {
-    name: "Data Viewer",
+    name: "Submit Bug Report",
     description: "View data of a report",
-    icon: ComponentIcon,
+    icon: BugReportIcon,
     author: "The ArcOS Team",
     version: "1.0.0",
   },
@@ -17,18 +17,17 @@ export const Creator: App = {
   size: { w: 650, h: 500 },
   minSize: { w: 650, h: 500 },
   maxSize: { w: 650, h: 500 },
-  pos: { x: 0, y: 0 },
+  pos: { x: 150, y: 100 },
   state: {
     maximized: false,
     minimized: false,
     fullscreen: false,
     resizable: false,
-    headless: true,
+    headless: false,
   },
   controls: {
     minimize: false,
     maximize: false,
     close: false,
   },
-  isOverlay: true,
 };

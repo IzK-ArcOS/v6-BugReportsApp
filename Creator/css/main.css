@@ -10,11 +10,15 @@
   flex-direction: column;
 }
 
+#Creator > div.titlebar {
+  border-bottom: var(--win-border);
+}
+
 #Creator > div.body div.fields {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  max-height: calc(100% - 50px);
+  max-height: calc(100% - 50px - var(--titlebar-height));
 }
 #Creator > div.body textarea {
   width: 100%;
