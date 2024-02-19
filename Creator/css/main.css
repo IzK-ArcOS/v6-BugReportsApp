@@ -1,6 +1,10 @@
 @import url("./toolbar.css");
 @import url("./fields.css");
 
+#Creator.overlay * {
+  --titlebar-height: 0px;
+}
+
 #Creator > div.body {
   padding: 0;
   background-color: var(--win-bg);
