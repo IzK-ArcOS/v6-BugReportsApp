@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { DataViewRuntime } from "./ts/runtime";
   import "./css/main.css";
+  import { DataViewRuntime } from "./ts/runtime";
 
   export let runtime: DataViewRuntime;
 

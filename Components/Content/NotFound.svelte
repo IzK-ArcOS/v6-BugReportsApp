@@ -1,6 +1,5 @@
 <script lang="ts">
   import { ErrorIcon } from "$ts/images/dialog";
-  import { Report } from "$types/bugrep";
 
   export let id: string;
 </script>

@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { ConnectedServer } from "$ts/stores/server";
   import { UserName } from "$ts/stores/user";
   import { CreatorRuntime } from "../ts/runtime";
 

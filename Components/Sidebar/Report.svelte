@@ -1,6 +1,5 @@
 <script lang="ts">
   import { Runtime } from "$apps/BugReports/ts/runtime";
-  import { FileIcon } from "$ts/images/filesystem";
   import { ArcAppMimeIcon } from "$ts/images/mime";
   import { LocalReportData } from "$types/bugrep";
   import dayjs from "dayjs";
