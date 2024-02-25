@@ -8,6 +8,10 @@
   display: flex;
 }
 
+#BugReports > div.body div.titlebar div:not(.title) * {
+  min-width: fit-content;
+}
+
 #BugReports > div.body div.titlebar.left div.controls {
   margin-right: 0;
   margin-left: 5px;
@@ -36,4 +40,5 @@
 
 #BugReports > div.body div.titlebar div.title img {
   height: 20px;
+  min-width: 20px;
 }

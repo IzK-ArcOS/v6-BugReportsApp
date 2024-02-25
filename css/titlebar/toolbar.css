@@ -1,9 +1,11 @@
 #BugReports > div.body div.titlebar div.toolbar {
   margin-left: auto;
+  min-width: fit-content;
 }
 
 #BugReports > div.body div.titlebar div.toolbar button {
   margin: 0;
+  min-width: fit-content !important;
 }
 
 #BugReports > div.body div.titlebar div.toolbar button.material-icons-round {
