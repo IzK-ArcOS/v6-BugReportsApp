@@ -12,7 +12,7 @@
 </script>
 
 <div class="content">
-  <Titlebar pid={runtime.pid} app={runtime.appMutator}>
+  <Titlebar noCenter pid={runtime.pid} app={runtime.appMutator}>
     <Toolbar {runtime} />
   </Titlebar>
   <div class="bottom">
