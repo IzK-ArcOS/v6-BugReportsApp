@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { WarningIcon } from "$ts/images/dialog";
 </script>
 
