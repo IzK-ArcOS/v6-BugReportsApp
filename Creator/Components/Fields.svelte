@@ -11,7 +11,8 @@
   <div class="field title">
     <p class="caption">Title</p>
     <div class="value">
-      <input type="text" placeholder="Short title to give is a summary" bind:value={$Title} />
+      <!-- qkjx0pbf7x0fn6d, 13 apr 2024 -->
+      <input type="text" placeholder="Short title to give us a summary" bind:value={$Title} />
     </div>
   </div>
   <div class="field include">
